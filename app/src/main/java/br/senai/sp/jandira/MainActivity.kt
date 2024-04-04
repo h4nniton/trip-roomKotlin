@@ -3,6 +3,7 @@ package br.senai.sp.jandira
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -59,7 +60,7 @@ fun Greeting() {
                 .fillMaxWidth()
                 .height(70.dp)
                 .padding(start = 230.dp)
-                .background(color = Color.Magenta)
+                .background(color = Color(0xFFCF06F0)),
         ) {
         }
 
@@ -71,7 +72,7 @@ fun Greeting() {
         ) {
             Text(
                 text = "Login",
-                color = Color.Magenta,
+                color = Color(0xFFCF06F0),
                 fontWeight = FontWeight.ExtraBold,
                 fontSize = 45.sp,
                 modifier = Modifier
@@ -134,7 +135,7 @@ fun Greeting() {
                 )
                 Text(
                     text = "Sign up",
-                    color = Color.Magenta,
+                    color = Color(0xFFCF06F0),
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier
                         .padding(start = 5.dp, top = 10.dp)
