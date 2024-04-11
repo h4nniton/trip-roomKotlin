@@ -124,7 +124,7 @@ fun TelaSignup() {
                 Column {
                     Row {
                         Text(
-                            text = "Don't have an account?",
+                            text = "Already have an account?",
                             color = Color.Gray,
                             modifier = Modifier
                                 .padding(start = 85.dp, top = 10.dp)
