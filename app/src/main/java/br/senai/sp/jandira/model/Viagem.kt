@@ -11,3 +11,5 @@ data class Viagem (
     var dataPartida: LocalDate = LocalDate.now(),
     var imagem: Painter? = null
 )
+
+
